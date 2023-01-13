@@ -1,5 +1,7 @@
-small=True
-green=True
+import random
+
+small=bool(random.randint(0,1))
+green=bool(random.randint(0,1))
 if green:
     if small:
         print("pea")
